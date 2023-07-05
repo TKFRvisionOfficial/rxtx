@@ -365,11 +365,11 @@ printf("%8li sec : %8li usec\n", enow.tv_sec - snow.tv_sec, enow.tv_sec - snow.t
 #	define LOCKDIR USER_LOCK_DIRECTORY
 #endif /* USER_LOCK_DIRECTORY */
 
-#ifdef DISABLE_LOCKFILES
+// #ifdef DISABLE_LOCKFILES
 #undef UUCP
 #undef FHS
 #undef OLDUUCP
-#endif /* DISABLE_LOCKFILES */
+// #endif /* DISABLE_LOCKFILES */
 
 /*  That should be all you need to look at in this file for porting */
 #ifdef LFS  /*  Use a Lock File Server */
